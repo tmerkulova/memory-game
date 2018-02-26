@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Matching Game</title>
     <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
     <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
     <link rel="stylesheet" href="css/app.css">
@@ -22,60 +23,81 @@
         		<li><i class="fa fa-star"></i></li>
         	</ul>
 
-        	<span class="moves">3</span> Moves
+        	<span class="moves">0 Moves</span>
+          <span class="timer">00:00</span>
 
-            <div class="restart">
+          <div class="restart">
         		<i class="fa fa-repeat"></i>
         	</div>
         </section>
 
+        <div id="modal" class="modal">
+          <div class="modal-content">
+            <div class="modal-header">
+              <span class="close">&times;</span>
+              <h2>Congratulations!</h2hidden>
+            </div>
+            <div class="modal-body">
+              <p class="modal-score">
+                Your score is <span>3</span>!
+              </p>
+              <p class="modal-time">
+                And time is <span>00:00</span>!
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button>PLAY AGAIN</button>
+            </div>
+          </div>
+        </div>
+
         <ul class="deck">
-            <li class="card">
+            <li id="card1" class="card">
                 <i class="fa fa-diamond"></i>
             </li>
-            <li class="card">
+            <li id="card2" class="card">
                 <i class="fa fa-paper-plane-o"></i>
             </li>
-            <li class="card match">
+            <li id="card3" class="card">
                 <i class="fa fa-anchor"></i>
             </li>
-            <li class="card">
+            <li id="card4" class="card">
                 <i class="fa fa-bolt"></i>
             </li>
-            <li class="card">
+            <li id="card5" class="card">
                 <i class="fa fa-cube"></i>
             </li>
-            <li class="card match">
+            <li id="card6" class="card">
                 <i class="fa fa-anchor"></i>
             </li>
-            <li class="card">
+            <li id="card7" class="card">
                 <i class="fa fa-leaf"></i>
             </li>
-            <li class="card">
+            <li id="card8" class="card">
                 <i class="fa fa-bicycle"></i>
             </li>
-            <li class="card">
+            <li id="card9" class="card">
                 <i class="fa fa-diamond"></i>
             </li>
-            <li class="card">
+            <li id="card10" class="card">
                 <i class="fa fa-bomb"></i>
             </li>
-            <li class="card">
+            <li id="card11" class="card">
                 <i class="fa fa-leaf"></i>
             </li>
-            <li class="card">
+            <li id="card12" class="card">
                 <i class="fa fa-bomb"></i>
             </li>
-            <li class="card open show">
+            <li id="card13" class="card">
                 <i class="fa fa-bolt"></i>
             </li>
-            <li class="card">
+            <li id="card14" class="card">
                 <i class="fa fa-bicycle"></i>
             </li>
-            <li class="card">
+            <li id="card15" class="card">
                 <i class="fa fa-paper-plane-o"></i>
             </li>
-            <li class="card">
+            <li id="card16" class="card">
                 <i class="fa fa-cube"></i>
             </li>
         </ul>
