@@ -101,10 +101,10 @@ function closeCards(card1, card2) {
 function incrementMoveCounter() {
   moveCounter++;
   movesElement.textContent = moveCounter === 1 ? '1 Move' : `${moveCounter} Moves`;
-  if (moveCounter === 3) {
+  if (moveCounter === 16) {
     starsElement.removeChild(starsElement.lastElementChild);
   }
-  if (moveCounter === 5) {
+  if (moveCounter === 24) {
     starsElement.removeChild(starsElement.lastElementChild);
   }
 }
