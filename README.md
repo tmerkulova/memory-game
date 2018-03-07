@@ -13,4 +13,4 @@ To use it download the repository and open `index.html` file in any browser.
 
 ## Contributing
 
-This repository uses the starter code for _all_ Udacity students.
+This repository uses [the starter code](https://github.com/udacity/fend-project-memory-game) for _all_ Udacity students.
